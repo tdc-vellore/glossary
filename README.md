@@ -1,4 +1,4 @@
 Glossary:
 
-<!-- start: YOUR_STARTER -->
-<!-- end: YOUR_STARTER -->
+<!-- start: readme-repos-list -->
+<!-- end: readme-repos-list -->
