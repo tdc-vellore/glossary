@@ -13,6 +13,6 @@ jobs:
         uses: koj-co/readme-repos-list@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          query: "Octocat in:readme user:tdc-vellore"
+          query: "Octocat in:readme user:anuran-roy"
           owner: tdc-vellore
           order: asc
