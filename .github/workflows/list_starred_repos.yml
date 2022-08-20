@@ -33,7 +33,7 @@ jobs:
     - uses: actions/setup-node@v3
       with:
         node-version: 18.7.0
-    - run: node list.js | cat >> README.md
+    - run: echo > README.md && node list.js | cat >> README.md
     - run: |
           if [[ "$(git status --porcelain)" != "" ]]; then
             git config user.name "GitHub Action"
