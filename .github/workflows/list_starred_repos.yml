@@ -2,8 +2,8 @@ name: Readme Template
 on:
   schedule:
     - cron: '0 0 * * 1' # every Monday at 5:30 am IST
-#   push:
-#     branches: [ main ]
+  push:
+    branches: [ main ]
 jobs:
 #   publish:
 #     runs-on: ubuntu-latest
@@ -33,6 +33,6 @@ jobs:
     - uses: actions/setup-node@v3
       with:
         node-version: 18.7.0
-    - run: node ./list.js
+    - run: node list.js | cat >> README.md
 #     - run: npm test
     
